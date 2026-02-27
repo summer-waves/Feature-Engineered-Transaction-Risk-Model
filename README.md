@@ -139,7 +139,7 @@ This gives audit a clear list of accounts to prioritize for testing.
 
 ---
 
-🚀 Possible Extensions
+## 🚀 Possible Extensions
 * Train a supervised model (e.g., logistic regression) to predict `isFraud` or `high_risk_flag`.
 * Add **time‑window features** (recent spike in activity vs long‑term behavior).
 * Build a **Streamlit or Dash app** for auditors to filter and investigate high‑risk accounts.
