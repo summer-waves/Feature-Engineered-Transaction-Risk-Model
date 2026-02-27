@@ -14,19 +14,13 @@ The pipeline:
 ---
 
 📑 Table of Contents
-Project Objectives
-
-Project Structure
-
-Data and Features
-
-Risk Scoring Model
-
-Analysis and Visualizations
-
-Tools and Libraries
-
-Possible Extensions
+1. [Project Objectives](#project-objectives)
+2. [Project Structure](#project-structure)
+3. [Data and Features](#data-and-features)
+4. [Risk Scoring Model](#risk-scoring-model)
+5. [Analysis and Visualizations](#analysis-and-visualizations)
+6. [Tools and Libraries](#tools-and-libraries)
+7. [Possible Extensions](#possible-extensions)
 
 ---
 
@@ -38,23 +32,7 @@ Possible Extensions
 
 ---
 
-📂 Project Structure
-text
-audit-risk-model/
-├── data/
-│   ├── raw/
-│   │   └── transactions.csv
-│   └── processed/
-│       ├── origin_account_features.csv
-│       └── origin_account_features_scored.csv
-├── notebooks/
-│   ├── 01_exploration.ipynb
-│   └── 02_risk_scoring_model.ipynb
-├── src/
-│   ├── data_prep.py
-│   ├── features.py
-│   └── model.py
-└── run_pipeline.py
+## 📂 Project Structure
 
 * `data/raw/transactions.csv` – synthetic transaction‑level dataset.
 * `data/processed/origin_account_features.csv` – origin‑account features after aggregation.
